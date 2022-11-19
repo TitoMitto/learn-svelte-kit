@@ -8,7 +8,7 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		trailingSlash: 'always',
+		trailingSlash: 'never',
 		adapter: adapter({
 			fallback: 'index.html',
 		  })
